@@ -1,6 +1,7 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900 */
 
+
 .azeret-mono-normal{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -329,14 +330,12 @@ footer{
 }
 
 .footer {
-    background-color: #f8f8f8;
+    background-color: #F8F8F8;
     width: 100%;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative;
     text-align: center;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #E7E7E7;
 }
 
 .footer-content {
