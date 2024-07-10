@@ -1,6 +1,3 @@
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 */
-
 
 .azeret-mono-normal{
   font-family: "Azeret Mono", monospace;
@@ -85,16 +82,6 @@ nav ul li{
     background-color: #FAFAFB;
 }
 
-/* Header */
-
-/* .header{
-    background-image: url(../images/Hero-bg.png);
-    background-repeat: none;
-    background-position: bottom;
-    width: 100%;
-    height: 100%;
-} */
-
 /* All Banner Things */
 
 .banner{
@@ -114,25 +101,19 @@ nav ul li{
 .banner-description{
     font-size: 15px;
     font-weight: 200;
-    /* text-align: center; */
+
 }
 
 .bannerpic{
     margin-top: 30px;
 }
 
-/* main */
-/* main{ */
-    /* max-width: 998px; */
-    /* margin: 0 auto; */
-    /* text-align: center; */
-/* } */
 
 .secondary-main{
     max-width: 1140px;
     margin: 0 auto;
     margin-bottom: 60px;
-    /* text-align: center;  */
+
 }
 
 .why-web-dev{
@@ -182,7 +163,6 @@ nav ul li{
     color: #555963;
     border-width: none;
     padding: 14px 24px;
-    /* border-radius: 8px; */
     border: solid thin;
 }
 
@@ -200,7 +180,6 @@ nav ul li{
 
 /* My Inspiration  */
 .my-inspiration{
-    /* text-align: center; */
     max-width: 1076px;
     margin: 80px auto;
 }
@@ -231,10 +210,6 @@ nav ul li{
     display: flex;
     gap: 24px;
 }
-
-/* .targets{
-    padding: 30px;
-} */
 
 .target-title{
     font-size: 20px;
@@ -305,12 +280,6 @@ nav ul li{
     gap: 10px;
 }
 
-/* 
-footer{
-    padding: 130px 130px;
-    display: flex;
-} */
-
 .feedback-input {
     padding: 10px;
     width: 500px;
@@ -335,7 +304,6 @@ footer{
     padding: 10px 0;
     position: relative;
     text-align: center;
-    border-top: 1px solid #E7E7E7;
 }
 
 .footer-content {
