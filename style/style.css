@@ -1,0 +1,348 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.azeret-mono-normal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 200px;
+    color: rgba(13, 19, 33, 1);
+}
+
+.btn-primary{
+    background-color: white;
+    font-weight: 600;
+    font-size: 18px;
+    color: #555963;
+    border-width: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: solid thin;
+    
+}
+
+.btn-banner{
+    background-color: black;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    border-width: none;
+    padding: 16px 22px;
+    border-radius: 8px;
+    border: solid thin;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-description{
+    font-size: 16px;
+    color: #0D1321;
+    /* margin-top: 80px; */
+    margin-bottom: 60px;
+    text-align: center;
+    max-width: 852px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 28px
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.why-web-dev{
+    border-radius: 16px;
+}
+
+.secondary-bg{
+    background-color: #FAFAFB;
+}
+
+/* Header */
+
+/* .header{
+    background-image: url(../images/Hero-bg.png);
+    background-repeat: none;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+} */
+
+/* All Banner Things */
+
+.banner{
+    background-image: url(../images/Hero-bg.png);
+    text-align: center;
+}
+
+.banner-content{
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    max-width: 998px;
+    margin: auto;
+}
+
+.banner-description{
+    font-size: 15px;
+    font-weight: 200;
+    /* text-align: center; */
+}
+
+.bannerpic{
+    margin-top: 30px;
+}
+
+/* main */
+/* main{ */
+    /* max-width: 998px; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+/* } */
+
+.secondary-main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    /* text-align: center;  */
+}
+
+.why-web-dev{
+    border-radius: 16px;
+    padding: 35px 97px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.skill{
+    text-align: left;
+    display: flex; 
+    gap: 24;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background-image: linear-gradient(to right, #FFFFFF, #FAFAFB);
+    padding: 40px 40px 40px 40px;
+}
+
+.skill2{
+    text-align: left;
+    display: flex; 
+    flex-direction: row-reverse;
+    gap: 24;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background-image: linear-gradient(to left, #FFFFFF, #FAFAFB);
+    padding: 40px 40px 40px 40px;
+}
+
+.inside-skills{
+    max-width: 447px;
+}
+
+.skill-pic{
+    width: 250px;
+}
+
+.skill-btn{
+    background-color: white;
+    font-weight: 600;
+    font-size: 18px;
+    color: #555963;
+    border-width: none;
+    padding: 14px 24px;
+    /* border-radius: 8px; */
+    border: solid thin;
+}
+
+.skill-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #555963;
+}
+
+.skill-description{
+    font-size: 15px;
+    font-weight: 200;
+    color: #555963;
+}
+
+/* My Inspiration  */
+.my-inspiration{
+    /* text-align: center; */
+    max-width: 1076px;
+    margin: 80px auto;
+}
+
+.video{
+    margin-top: 60px;
+    border-top-left-radius : 25px; 
+    border-top-right-radius : 25px; 
+    border-bottom-left-radius : 25px;
+    border-bottom-right-radius : 25px;
+    overflow: hidden;
+}
+
+.learn-more{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.my-current-target{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.target-container{
+    margin-top: 60px;
+    display: flex;
+    gap: 24px;
+}
+
+/* .targets{
+    padding: 30px;
+} */
+
+.target-title{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.target-skill-description{
+    font-size: 15px;
+    font-weight: 200;
+    color:  #555963;
+}
+
+.target1{
+    padding: 30px;
+    background-color: #FFF7F4;
+    border-radius: 16px;
+}
+
+.target2{
+    padding: 30px;
+    background-color: #F2F6FE;
+    border-radius: 16px;
+}
+
+.target3{
+    padding: 30px;
+    background-color: #FFFDF2;
+    border-radius: 16px;
+}
+
+.last{
+    max-width: 1260px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.last-pic{
+    background-image: url(../images/handshake.jpg);
+    align-items: bottom;
+    max-width: 1260px;
+    border-radius: 16px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.last-section-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.last-section-description{
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    max-width: 606px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.text-box{
+    padding-inline-start: 25%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+/* 
+footer{
+    padding: 130px 130px;
+    display: flex;
+} */
+
+.feedback-input {
+    padding: 10px;
+    width: 500px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
